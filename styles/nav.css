@@ -88,10 +88,10 @@
       html {font-size: 55px}
       body {height: 70%}
       .button {      
-          font-size: 32px;
+          font-size: 64px;
           margin-left: .25em;
           margin-right: .25em;
-          padding: 8px 26px 8px 26px;
+          padding: 16px 52px 16px 52px;
       }  
       .menu {width: 70%;}
       .themepicker {font-size: 3em;}
@@ -105,10 +105,10 @@
       html {font-size: 35px; -webkit-text-size-adjust: none}
       body {height: 70%;}
       .button {      
-          font-size: 32px;
+          font-size: 64px;
           margin-left: .25em;
           margin-right: .25em;
-          padding: 8px 26px 8px 26px;
+          padding: 16px 52px 16px 52px;
       }  
       .logo {font-size: 300%}
       .menu {width: 70%;}
