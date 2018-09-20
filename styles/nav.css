@@ -87,7 +87,7 @@
     and (orientation: portrait) { 
       html {font-size: 55px}
       body {height: 70%}
-      .button {font-size: 200%;} 
+      .button {font-size, padding: 200%;} 
       .menu {width: 70%;}
       .themepicker {font-size: 3em;}
     }
@@ -99,7 +99,7 @@
     and (orientation: landscape) { 
       html {font-size: 35px; -webkit-text-size-adjust: none}
       body {height: 70%;}
-      .button {font-size: 200%;}  
+      .button {font-size, padding: 200%;}  
       .logo {font-size: 300%}
       .menu {width: 70%;}
     }
