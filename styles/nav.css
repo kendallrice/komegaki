@@ -85,7 +85,7 @@
     and (min-device-width: 375px) 
     and (max-device-width: 667px) 
     and (orientation: portrait) { 
-      h1 {margin-bottom: -.1em; margin-top: -.05em; padding-bottom: 0;}
+      h1 {margin-bottom: -.1em; padding-bottom: 0;}
       html {font-size: 55px}
       body {height: 70%}
       .button { 
@@ -109,7 +109,7 @@
     and (min-device-width: 375px)
     and (max-device-width: 667px) 
     and (orientation: landscape) { 
-      h1 {margin-bottom: -.1em; margin-top: -.05em; padding-bottom: 0;}
+      h1 {margin-bottom: -.1em; padding-bottom: 0;}
       html {font-size: 35px; -webkit-text-size-adjust: none}
       body {height: 70%;}
       .button { 
