@@ -119,10 +119,10 @@
          display: inline-block;
          text-align: center;
          text-decoration: none;
-         height: 45px;
+         height: 50px;
          width: 40px;
-         margin-left: .25em;
-         margin-right: .25em;
+         margin-left: .5em;
+         margin-right: .5em;
          -webkit-transition-duration: 0.3s;
          transition-duration: 0.3s;
       }   
