@@ -88,11 +88,10 @@
       h1 {margin-top, margin-bottom: -1em;}
       html {font-size: 55px}
       body {height: 70%}
-      .button {      
-      font-size: 32px;
-      margin-left: .25em;
-      margin-right: .25em;
-      padding: 8px 26px 8px 26px;
+      .button { 
+          display: inline;
+          font-size: 32px;
+          padding: 8px 26px 8px 26px;
       }   
       .menu {width: 70%;}
       .themepicker {font-size: 3em;}
