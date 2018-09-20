@@ -1,0 +1,141 @@
+    caps {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    html {
+      font-size: 18px;
+    }
+
+    h1 {
+      color: #778899;
+      font-family: "Roboto", sans-serif;
+      font-size: 250%;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 120%;
+      font-weight: normal;
+      margin-top: -1em;
+      padding-bottom: 2em;
+      text-align: center;
+    }
+
+    p {
+      font-family: "EB Garamond", serif;
+      font-size: 120%;
+      hyphens: auto;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      text-indent: 1.5em;
+      margin-bottom: -1em;
+    }
+
+    ruby { 
+      ruby-overhang: whitespace;
+      ruby-position: center;
+    }
+
+    rt {
+      font-family: "Roboto", sans-serif;
+      font-size: 45%;
+    }
+
+    sc {
+      font-variant: small-caps;
+      letter-spacing: 2px;
+     }
+
+    .break {
+      padding-bottom: 2em;
+      text-align: center;
+      text-indent: 0em;    
+     }
+
+    .button {
+      border: none;
+      border-radius: 50%;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left: .25em;
+      margin-right: .25em;
+      padding: 4px 13px 4px 13px;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+    }
+
+    .button:hover {
+      border-radius: 50%;
+      padding-left: 13px; 
+      padding-right: 13px;
+      padding-top: 14px;
+    }
+
+    .dropcap {
+      color: #F60;
+      font-size: 500%;
+      float: left;
+      line-height: 1.3em;
+      margin-top: -0.28em;
+      margin-bottom: -0.3245em; 
+      padding-right: .05em;
+    }
+
+    .first {
+      text-indent: 0;
+    }
+
+    .logo {
+      color: #778899;
+      font-family: "Mincho";
+      font-size: 400%; 
+      margin: auto; 
+      padding-bottom: 1em;
+      padding-top: .25em;
+      writing-mode: vertical-rl;
+      -webkit-writing-mode: vertical-rl
+    }
+
+    .sc {
+      font-variant: small-caps;
+      letter-spacing: 2px;
+    }
+
+    .themepicker {
+      padding-bottom: 1em;
+    }
+
+/* iPhone 6 portrait */
+    @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (orientation: portrait) { 
+      html {font-size: 42px}
+      body {height: 70%}
+    }
+
+/* iPhone 6 landscape */
+    @media only screen 
+    and (min-device-width: 375px)
+    and (max-device-width: 667px) 
+    and (orientation: landscape) { 
+      html {font-size: 24px; -webkit-text-size-adjust: none}
+      body {height: 70%;}  
+      h1 {font-size: 50px}
+    }
+ 
+/*iPad Pro 9.7" portrait */
+
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      html {font-size: 24px; -webkit-text-size-adjust: none}
+      body {height: 70%;}  
+      h1 {font-size: 50px}
+    }

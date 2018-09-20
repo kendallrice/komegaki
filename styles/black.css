@@ -1,0 +1,37 @@
+    p, a:link, a:visited, h2 {
+      color: aliceblue;
+    }
+    a:hover {
+      color: darkolivegreen;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    dt {
+      color: aliceblue;
+    }
+
+    img {
+      opacity: .7;
+    }
+
+    .dropcap {
+      color: #fff99c;
+    }
+
+    .epi {
+      color: dimgray;
+      padding-bottom: 1em;
+      text-indent: 0;
+    }
+
+
+    .logo {
+      color: white;
+    }
+
+    #copyright {
+      color: dimgray;
+    }

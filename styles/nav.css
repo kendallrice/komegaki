@@ -1,0 +1,75 @@
+    dl {
+      font-family: "Roboto", sans-serif;
+    }
+
+    dd {
+      color: #778899;
+      margin-left: 1em;
+      padding-bottom: .75em;
+      padding-top: .25em;
+    }
+    
+    h1 {
+    color: #778899;
+    font-family: "Roboto", sans-serif;
+    font-size: 250%;
+    text-align: center;
+    }   
+
+    html {
+      font-size: 18px;
+    }
+    
+    p {
+      font-family: "Roboto", sans-serif;
+    }
+
+    rt {
+      font-family: "Roboto", sans-serif;
+      font-size: 45%;
+    }
+
+    ruby { 
+      ruby-overhang: whitespace;
+      ruby-position: center;
+    }
+
+    .button {
+      border: none;
+      border-radius: 50%;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left: .25em;
+      margin-right: .25em;
+      padding: 4px 13px 4px 13px;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+    }
+
+    .button:hover {
+      border-radius: 50%;
+      padding-left: 13px; 
+      padding-right: 13px;
+      padding-top: 14px;
+    }
+
+    .kanji {
+      color: #778899; 
+      font-family: "Mincho";
+    } 
+
+    .logo {
+      color: #778899;
+      font-family: "Mincho";
+      font-size: 400%; 
+      margin: auto; 
+      padding-bottom: 1em;
+      padding-top: .25em;
+      writing-mode: vertical-rl;
+      -webkit-writing-mode: vertical-rl
+    }  
+
+    .themepicker {
+      padding-bottom: 1em;
+    }

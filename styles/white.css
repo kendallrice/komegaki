@@ -1,0 +1,26 @@
+    p, a:link, a:visited, h2 {
+      color: black;
+    }
+
+    a:hover {
+      color: forestgreen;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    .epi {
+      color: dimgray;
+      padding-bottom: 1em;
+      text-indent: 0;
+    }
+
+
+    .logo {
+      color: #778899;
+    }  
+
+    #copyright {
+      color: dimgrey;
+    }
