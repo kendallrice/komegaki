@@ -77,7 +77,7 @@
     }
 
     .themepicker {
-      padding-bottom: 1em;
+    padding-bottom: 1em;
     }
 
 /* iPhone 6 portrait */
@@ -88,7 +88,7 @@
       html {font-size: 55px}
       body {height: 70%}
       .menu {width: 70%;}
-      .themepicker {font-size: 55px}
+      .themepicker {font-size: 200%;}
     }
 
 /* iPhone 6 landscape */
@@ -98,9 +98,9 @@
     and (orientation: landscape) { 
       html {font-size: 35px; -webkit-text-size-adjust: none}
       body {height: 70%;}  
-      h1 {font-size: 50px}
+      h1 {font-size: 60px}
       .menu {width: 70%;}
-      .themepicker {font-size: 35px}
+      .themepicker {font-size: 200%;}
     }
  
 /*iPad Pro 9.7" portrait */
