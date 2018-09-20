@@ -100,6 +100,12 @@
       -webkit-writing-mode: vertical-rl
     }
 
+    .menu {
+      margin: auto;
+      width: 30%;
+      padding: 10px;
+    }
+
     .sc {
       font-variant: small-caps;
       letter-spacing: 2px;
