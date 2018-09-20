@@ -91,6 +91,8 @@
       .button { 
           display: inline;
           font-size: 32px;
+          margin-left: .5em;
+          margin-right: .5em;
           padding: 8px 26px 8px 26px;
       }   
       .menu {width: 70%;}
