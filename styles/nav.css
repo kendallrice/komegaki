@@ -98,8 +98,6 @@
          width: 60px;
          margin-left: .25em;
          margin-right: .25em;
-         -webkit-transition-duration: 0.3s;
-         transition-duration: 0.3s;
       }   
       .menu {width: 70%;}
       .themepicker {font-size: 3em;}
@@ -123,8 +121,6 @@
          width: 30px;
          margin-left: .5em;
          margin-right: .5em;
-         -webkit-transition-duration: 0.3s;
-         transition-duration: 0.3s;
       }   
       .logo {font-size: 300%}
       .menu {width: 70%;}
