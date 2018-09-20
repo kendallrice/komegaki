@@ -128,7 +128,8 @@
     and (max-device-width: 667px) 
     and (orientation: portrait) { 
       h1 {font-size: 175%; padding-bottom: 0;}
-      html {font-size: 55px}
+      h2 {padding-bottom: 1em;}
+      html {font-size: 40px}
       body {height: 70%}
       .button { 
          border: none;
@@ -152,7 +153,8 @@
     and (max-device-width: 667px) 
     and (orientation: landscape) { 
       h1 {font-size: 175%; padding-bottom: 0;}
-      html {font-size: 35px; -webkit-text-size-adjust: none}
+      h2 {padding-bottom: 1em;}
+      html {font-size: 25px; -webkit-text-size-adjust: none}
       body {height: 70%;}  
       .button { 
          border: none;
@@ -167,7 +169,7 @@
       }   
       .logo {font-size: 325%; padding-bottom: .5em;}
       .menu {width: 70%;)
-      .prosetext {width: 70%;}
+      .prosetext {max-width: 70%;}
     }
  
 /*iPad Pro 9.7" portrait */
