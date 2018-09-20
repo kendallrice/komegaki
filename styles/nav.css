@@ -88,7 +88,7 @@
       html {font-size: 55px}
       body {height: 70%}
       .menu {width: 70%;}
-      .themepicker {font-size: 200%;}
+      .themepicker {font-size: 3em;}
     }
 
 /* iPhone 6 landscape */
@@ -98,9 +98,9 @@
     and (orientation: landscape) { 
       html {font-size: 35px; -webkit-text-size-adjust: none}
       body {height: 70%;}  
-      h1 {font-size: 60px}
+      .logo {font-size: 75%}
       .menu {width: 70%;}
-      .themepicker {font-size: 200%;}
+      .themepicker {font-size: 3em;}
     }
  
 /*iPad Pro 9.7" portrait */
