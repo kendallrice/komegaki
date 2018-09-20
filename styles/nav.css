@@ -89,11 +89,17 @@
       html {font-size: 55px}
       body {height: 70%}
       .button { 
-          display: inline;
-          font-size: 32px;
-          margin-left: .5em;
-          margin-right: .5em;
-          padding: 8px 26px 8px 26px;
+         border: none;
+         border-radius: 50%;
+         display: inline-block;
+         text-align: center;
+         text-decoration: none;
+         height: 42px;
+         width: 42px;
+         margin-left: .25em;
+         margin-right: .25em;
+         -webkit-transition-duration: 0.3s;
+         transition-duration: 0.3s;
       }   
       .menu {width: 70%;}
       .themepicker {font-size: 3em;}
