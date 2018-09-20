@@ -122,6 +122,13 @@
       padding-bottom: 1em;
     }
 
+    .top {
+      font-family: "Roboto", sans-serif; 
+      padding-top: 1em; padding-bottom: .5em; 
+      text-align: center; 
+      text-indent: 0;
+    }
+
 /* iPhone 6 portrait */
     @media only screen 
     and (min-device-width: 375px) 
