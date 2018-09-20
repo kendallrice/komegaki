@@ -129,8 +129,8 @@
     and (orientation: portrait) { 
       h1 {font-size: 175%; padding-bottom: 0;}
       h2 {padding-bottom: 0;}
-      html {font-size: 50px}
-      body {height: 70%}
+      html {font-size: 50px;}
+      body {height: 70%;}
       .button { 
          border: none;
          border-radius: 50%;
@@ -144,7 +144,7 @@
       }  
       .logo {padding-bottom: .5em;}
       .menu {width: 70%;}
-      .prosetext {width: 80%;}
+      .prosetext {width: 90%;}
     }
 
 /* iPhone 6 landscape */
@@ -154,7 +154,8 @@
     and (orientation: landscape) { 
       h1 {font-size: 175%; padding-bottom: 0;}
       h2 {padding-bottom: 0;}
-      html {font-size: 30px; -webkit-text-size-adjust: none}  
+      html {font-size: 30px; -webkit-text-size-adjust: none}
+      body {height: 70%;}
       .button { 
          border: none;
          border-radius: 50%;
@@ -168,7 +169,7 @@
       }   
       .logo {font-size: 325%; padding-bottom: .5em;}
       .menu {width: 70%;)
-      .prosetext {width: 70%;}
+      .prosetext {width: 80%;}
     }
  
 /*iPad Pro 9.7" portrait */
