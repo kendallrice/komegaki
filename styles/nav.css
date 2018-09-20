@@ -85,7 +85,7 @@
     and (min-device-width: 375px) 
     and (max-device-width: 667px) 
     and (orientation: portrait) { 
-      h1 {padding-bottom: 0;}
+      h1 {margin-bottom: -1em; padding-bottom: 0;}
       html {font-size: 55px}
       body {height: 70%}
       .button { 
@@ -99,7 +99,8 @@
          margin-left: .25em;
          margin-right: .25em;
       }   
-        .logo {padding-bottom: 0;}
+      .button:hover {}
+      .logo {padding-bottom: .5em;}
       .menu {width: 70%;}
       .themepicker {padding-bottom: 0;}
     }
@@ -109,7 +110,7 @@
     and (min-device-width: 375px)
     and (max-device-width: 667px) 
     and (orientation: landscape) { 
-      h1 {padding-bottom: 0;}
+      h1 {margin-bottom: -1em; padding-bottom: 0;}
       html {font-size: 35px; -webkit-text-size-adjust: none}
       body {height: 70%;}
       .button { 
@@ -123,9 +124,10 @@
          margin-left: .5em;
          margin-right: .5em;
       }   
-      .logo {font-size: 300%; padding-bottom: 0;}
+      .button:hover {}
+      .logo {font-size: 300%; padding-bottom: .5em;}
       .menu {width: 70%;}
-        .themepicker {padding-bottom: 0;}
+      .themepicker {padding-bottom: 0;}
     }
  
 /*iPad Pro 9.7" portrait */
