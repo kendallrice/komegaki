@@ -87,6 +87,7 @@
     and (orientation: portrait) { 
       html {font-size: 55px}
       body {height: 70%}
+      .button {font-size: 55px;} 
       .menu {width: 70%;}
       .themepicker {font-size: 3em;}
     }
@@ -97,10 +98,10 @@
     and (max-device-width: 667px) 
     and (orientation: landscape) { 
       html {font-size: 35px; -webkit-text-size-adjust: none}
-      body {height: 70%;}  
-      .logo {font-size: 75%}
+      body {height: 70%;}
+      .button {font-size: 35px;}  
+      .logo {font-size: 300%}
       .menu {width: 70%;}
-      .themepicker {font-size: 3em;}
     }
  
 /*iPad Pro 9.7" portrait */
