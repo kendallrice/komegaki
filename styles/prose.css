@@ -160,7 +160,7 @@
     and (orientation: landscape) { 
       h1 {font-size: 175%; padding-bottom: 0;}
       h2 {padding-bottom: 0;}
-      html {font-size: 30px; -webkit-text-size-adjust: none}
+      html {font-size: 40px; -webkit-text-size-adjust: none}
       body {height: 70%;}
       .button { 
          border: none;
