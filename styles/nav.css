@@ -19,12 +19,6 @@
     html {
       font-size: 18px;
     }
-
-    .menu {
-    margin: auto;
-    width: 30%;
-    padding: 10px;
-    }
     
     p {
       font-family: "Roboto", sans-serif;
@@ -76,6 +70,12 @@
       -webkit-writing-mode: vertical-rl
     }  
 
+    .menu {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    }
+
     .themepicker {
       padding-bottom: 1em;
     }
@@ -87,7 +87,7 @@
     and (orientation: portrait) { 
       html {font-size: 50px}
       body {height: 70%}
-      .menu {width: 80%;}
+      .menu {width: 70%;}
     }
 
 /* iPhone 6 landscape */
