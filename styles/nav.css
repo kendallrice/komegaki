@@ -100,7 +100,7 @@
          margin-right: .25em;
       }   
       .menu {width: 70%;}
-      .themepicker {font-size: 3em;}
+      .themepicker {padding-bottom: 0;}
     }
 
 /* iPhone 6 landscape */
@@ -124,6 +124,7 @@
       }   
       .logo {font-size: 300%}
       .menu {width: 70%;}
+        .themepicker {padding-bottom: 0;}
     }
  
 /*iPad Pro 9.7" portrait */
