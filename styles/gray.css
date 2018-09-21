@@ -36,8 +36,12 @@ img {
   text-indent: 0;
 }
 
-.logo {
+#logo {
   color: white;
+}
+
+kanji {
+  color: #a0bad6;
 }
 
 #copyright {
