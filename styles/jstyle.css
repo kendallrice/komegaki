@@ -5,104 +5,116 @@ html {
 }
 
 body {
-    height: 75%;
-    padding: 1em;
-    position: absolute;
-    top:0;
-    bottom: 0;
-    margin: auto;
-    writing-mode: vertical-rl;
-    -webkit-writing-mode: vertical-rl; 
+  height: 75%;
+  padding: 1em;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  margin: auto;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl; 
 }
 
 em {
-    font-style: normal;
-    text-emphasis: sesame;
+  font-style: normal;
+  text-emphasis: sesame;
 }
 
 h1 {
-    color: #778899;
-    font-size: 250%;
-    text-align: center;
+  color: #778899;
+  font-size: 250%;
+  text-align: center;
 }
 
 h2 {
-    font-size: 120%;
-    font-weight: normal;
-    margin-right: -1em;
-    padding-left: 2em;
-    text-align: center;
+  font-size: 120%;
+  font-weight: normal;
+  margin-right: -1em;
+  padding-left: 2em;
+  text-align: center;
 }
 
 p {
-    font-size: 120%;
-    text-indent: 1em;
-    margin-left: -1em;
+  font-size: 120%;
+  text-indent: 1em;
+  margin-left: -1em;
 }
 
 pquote {
-    text-indent: 0;
-    margin-left: -1em;
+  text-indent: 0;
+  margin-left: -1em;
 }
 
 ruby { 
-    ruby-overhang: whitespace;
-    ruby-position: center;
-    }
+  ruby-overhang: whitespace;
+  ruby-position: center;
+  }
 
 rt {
-    font-size: 45%;
+  font-size: 45%;
 }
 
 .break {
-    padding-right: 1.5em;
-    text-align: center;
-    text-indent: 0em;    
+  padding-right: 1.5em;
+  text-align: center;
+  text-indent: 0em;    
 }
 
 .button {
-      border: none;
-      border-radius: 50%;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin-top: .25em;
-      margin-bottom: .25em;
-      padding: 13px 4px 13px 4px;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-    }
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: .25em;
+  margin-bottom: .25em;
+  padding: 13px 4px 13px 4px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
 
-    .button:hover {
-      border-radius: 50%;
-      padding-top: 13px; 
-      padding-bottom: 13px;
-      padding-right: 14px;
-    }
+.button:hover {
+  border-radius: 50%;
+  padding-top: 13px; 
+  padding-bottom: 13px;
+  padding-right: 14px;
+}
 
 .dash {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .leader
 {
-    vertical-align: 28%;
+  vertical-align: 28%;
 }
 
- .logo {
-      color: #778899;
-      font-family: "Mincho";
-      font-size: 400%; 
-      margin: auto; 
-      padding-left: 1em;
-      padding-right: .25em;
-     text-align: center;
-      writing-mode: vertical-rl;
-      -webkit-writing-mode: vertical-rl
-    }  
-
 .quote {
-    text-indent: 0;
+  text-indent: 0;
+}
+
+#logo {
+  color: #778899;
+  font-family: "Mincho";
+  font-size: 4em; 
+  margin: auto; 
+  padding-left: .5em;
+  padding-right: .5em;
+  text-align: center;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl
+}  
+
+#themepicker {
+  margin: auto;
+  width: 30%;
+  padding: 10px; text-align: center
+}
+
+#totop {
+  padding-left: 1em;
+  padding-right: 2em;
+  text-align: center;
 }
 
 /* iPhone 6 portrait */
