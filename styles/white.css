@@ -1,26 +1,25 @@
-    p, a:link, a:visited, h2 {
-      color: black;
-    }
+p, a:link, a:visited, h2, #menu {
+  color: black;
+}
 
-    a:hover {
-      color: forestgreen;
-    }
+a:hover {
+  color: forestgreen;
+}
 
-    body {
-      background-color: white;
-    }
+body {
+  background-color: white;
+}
 
-    .epi {
-      color: dimgray;
-      padding-bottom: 1em;
-      text-indent: 0;
-    }
+.epi {
+  color: dimgray;
+  padding-bottom: 1em;
+  text-indent: 0;
+}
 
+.logo {
+  color: #778899;
+}  
 
-    .logo {
-      color: #778899;
-    }  
-
-    #copyright {
-      color: dimgrey;
-    }
+#copyright {
+  color: dimgrey;
+}
