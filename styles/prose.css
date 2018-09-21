@@ -127,7 +127,7 @@ sc {
      text-align: center;
      width: 80%
    }
-   #menu {
+   #text {
      width: 70%;
    }
    #themepicker {
@@ -142,7 +142,7 @@ sc {
  and (min-device-width: 375px)
  and (max-device-width: 667px) 
  and (orientation: landscape) {
-   #menu {
+   #text {
      width: 60%;
    }
 }
