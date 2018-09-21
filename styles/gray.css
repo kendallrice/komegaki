@@ -1,4 +1,4 @@
-p, a:link, a:visited, h2, #menu {
+p, a:link, a:visited, h2 {
   color: azure;
 }
 
@@ -14,7 +14,7 @@ dd {
   color: #deeff5;
 }
 
-dt {
+dt, #menu {
   color: #deeff5;
 }
 
