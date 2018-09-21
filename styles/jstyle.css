@@ -122,6 +122,9 @@ rt {
 and (min-device-width: 375px) 
 and (max-device-width: 667px) 
 and (orientation: portrait) { 
+  body {
+    height: 85%;
+  }
 }
 
 /* iPhone 6 landscape */
@@ -129,6 +132,9 @@ and (orientation: portrait) {
 and (min-device-width: 375px)
 and (max-device-width: 667px) 
 and (orientation: landscape) {  
+  body {
+    height: 90%;
+  }  
 }
  
 /*iPad Pro 9.7"*/
