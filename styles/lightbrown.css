@@ -1,27 +1,27 @@
-   p, a:link, a:visited, h2 {
-      color: #654321;
-    }
+p, a:link, a:visited, h2 {
+  color: #654321;
+}
+   
+a:hover {
+  color: darkorange;
+}
 
-    a:hover {
-      color: darkorange;
-    }
+body {
+  background-color: navajowhite;
+}
 
-    body {
-      background-color: navajowhite;
-    }
-
-    .epi {
-      color: dimgray;
-      padding-bottom: 1em;
-      text-indent: 0;
-    }
+.epi {
+  color: dimgray;
+  padding-bottom: 1em;
+  text-indent: 0;
+}
 
 
-    .logo {
-      color: #778899;
-    }
+.logo {
+  color: #778899;
+ }
 
-    #copyright {
-      color: dimgrey;
-    }
+#copyright {
+  color: dimgrey;
+}
 
