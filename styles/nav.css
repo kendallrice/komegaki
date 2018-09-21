@@ -85,10 +85,13 @@ ruby {
  and (max-device-width: 667px) 
  and (orientation: portrait) { 
    #copyright { 
-    padding-top: 1em; 
-    text-align: center;
-    width: 80%
+     padding-top: 1em; 
+     text-align: center;
+     width: 80%
     }
+   #menu {
+     width: 100%;
+}
    #themepicker {
     padding-bottom: 1em;
     text-align: center;
