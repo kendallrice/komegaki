@@ -1,204 +1,148 @@
-    caps {
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
+caps {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
-    html {
-      font-size: 18px;
-    }
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
 
-    h1 {
-      color: #778899;
-      font-family: "Roboto", sans-serif;
-      font-size: 250%;
-      text-align: center;
-    }
+h1 {
+  color: #778899;
+  font-size: 2.25em;
+  text-align: center;
+}   
 
-    h2 {
-      font-family: "Roboto", sans-serif;
-      font-size: 120%;
-      font-weight: normal;
-      margin-top: -1em;
-      padding-bottom: 2em;
-      text-align: center;
-    }
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-top: -1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
 
-    p {
-      font-family: "EB Garamond", serif;
-      font-size: 120%;
-      hyphens: auto;
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      text-indent: 1.5em;
-      margin-bottom: -1em;
-    }
+p {
+  font-family: "EB Garamond", serif;
+  font-size: 120%;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  text-indent: 1.5em;
+  margin-bottom: -1em;
+}
 
-    ruby { 
-      ruby-overhang: whitespace;
-      ruby-position: center;
-    }
+ruby { 
+  ruby-overhang: whitespace;
+  ruby-position: center;
+}
 
-    rt {
-      font-family: "Roboto", sans-serif;
-      font-size: 45%;
-    }
+rt {
+  font-family: "Roboto", sans-serif;
+  font-size: 45%;
+}
 
-    sc {
-      font-variant: small-caps;
-      letter-spacing: 2px;
-     }
+sc {
+  font-variant: small-caps;
+  letter-spacing: 2px;
+ }
 
-    .break {
-      padding-bottom: 2em;
-      text-align: center;
-      text-indent: 0em;    
-     }
+.break {
+  padding-bottom: 2em;
+  text-align: center;
+  text-indent: 0em;    
+ }
 
-    .button {
-      border: none;
-      border-radius: 50%;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin-left: .25em;
-      margin-right: .25em;
-      padding: 4px 13px 4px 13px;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-    }
+.button {
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: .25em;
+  margin-right: .25em;
+  padding: 4px 13px 4px 13px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
 
-    .button:hover {
-      border-radius: 50%;
-      padding-left: 13px; 
-      padding-right: 13px;
-      padding-top: 14px;
-    }
+.button:hover {
+  border-radius: 50%;
+  padding-left: 13px; 
+  padding-right: 13px;
+  padding-top: 14px;
+}
 
-    .dropcap {
-      color: #F60;
-      font-size: 500%;
-      float: left;
-      line-height: 1.3em;
-      margin-top: -0.28em;
-      margin-bottom: -0.3245em; 
-      padding-right: .05em;
-    }
+.dropcap {
+  color: #F60;
+  font-size: 500%;
+  float: left;
+  line-height: 1.3em;
+  margin-top: -0.28em;
+  margin-bottom: -0.3245em; 
+  padding-right: .05em;
+}
 
-    .first {
-      text-indent: 0;
-    }
+.first {
+  text-indent: 0;
+}
 
-    .logo {
-      color: #778899;
-      font-family: "Mincho";
-      font-size: 400%; 
-      margin: auto; 
-      padding-bottom: 1em;
-      padding-top: .25em;
-      writing-mode: vertical-rl;
-      -webkit-writing-mode: vertical-rl
-    }
+#logo {
+  color: #778899;
+  font-family: "Mincho";
+  font-size: 4em; 
+  margin: .5em auto .5em auto; 
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl
+}  
 
-    .menu {
-      margin: auto;
-      width: 30%;
-      padding: 10px;
-    }
+#text {
+  line-height: 1.3; 
+  margin: auto; 
+  max-width: 40em; 
+  width: 65%
+}
 
-    .prosetext {
-        line-height: 1.3; 
-        margin: auto; 
-        max-width: 40em; 
-        width: 65%;
-     }
+#themepicker {
+  margin: auto;
+  padding-bottom: 1em;
+  text-align: center;
+  width: 30%;
+}
 
-    .sc {
-      font-variant: small-caps;
-      letter-spacing: 2px;
-    }
-
-    .themepicker {
-      padding-bottom: 1em;
-    }
-
-    .top {
-      font-family: "Roboto", sans-serif; 
-      padding-top: 1em; padding-bottom: .5em; 
-      text-align: center; 
-      text-indent: 0;
-    }
+#totop {
+  margin-bottom: 1em;
+  margin-top: 2em;
+  text-align: center;
+}
 
 /* iPhone 6 portrait */
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
-    and (orientation: portrait) { 
-      h1 {font-size: 175%; padding-bottom: 0;}
-      h2 {padding-bottom: 0;}
-      html {font-size: 50px;}
-      body {height: 70%;}
-      .button { 
-         border: none;
-         border-radius: 50%;
-         display: inline-block;
-         text-align: center;
-         text-decoration: none;
-         height: 70px;
-         width: 60px;
-         margin-left: .25em;
-         margin-right: .25em;
-      }  
-      .logo {padding-bottom: .5em;}
-      .menu {width: 70%;}
-      .prosetext {
-        line-height: 1.3; 
-        margin: auto; 
-        max-width: 40em; 
-        padding-left, padding-right: .5em;
-        width: 90%;
-     }
-    }
+@media only screen 
+ and (min-device-width: 375px) 
+ and (max-device-width: 667px) 
+ and (orientation: portrait) { 
+   html {font-size: 42px}
+   body {height: 70%}
+}
 
 /* iPhone 6 landscape */
-    @media only screen 
-    and (min-device-width: 375px)
-    and (max-device-width: 667px) 
-    and (orientation: landscape) { 
-      h1 {font-size: 175%; padding-bottom: 0;}
-      h2 {padding-bottom: 0;}
-      html {font-size: 30px; -webkit-text-size-adjust: none}
-      .button { 
-         border: none;
-         border-radius: 50%;
-         display: inline-block;
-         text-align: center;
-         text-decoration: none;
-         height: 45px;
-         width: 30px;
-         margin-left: .5em;
-         margin-right: .5em;
-      }   
-      .logo {font-size: 325%; padding-bottom: .5em;}
-      .menu {width: 70%;)
-      .prosetext {
-        p.font-size: 20px;
-        line-height: 1.3; 
-        margin: auto; 
-        max-width: 80em; 
-        padding: 0;
-        width: 100%;
-      }
+@media only screen 
+ and (min-device-width: 375px)
+ and (max-device-width: 667px) 
+ and (orientation: landscape) { 
+   html {font-size: 24px; -webkit-text-size-adjust: none}
+   body {height: 70%;}  
+   h1 {font-size: 50px}
     }
  
 /*iPad Pro 9.7" portrait */
-
-    @media only screen
-    and (min-device-width: 768px)
-    and (max-device-width: 1024px)
-    and (orientation: portrait)
-    and (-webkit-min-device-pixel-ratio: 2) {
-      html {font-size: 24px; -webkit-text-size-adjust: none}
-      body {height: 70%;}  
-      h1 {font-size: 50px}
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    html {font-size: 24px; -webkit-text-size-adjust: none}
+    body {height: 70%;}  
+    h1 {font-size: 50px}
     }
