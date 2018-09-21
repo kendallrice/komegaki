@@ -1,141 +1,108 @@
-    dl {
-      font-family: "Roboto", sans-serif;
-    }
-
-    dd {
-      color: #778899;
-      margin-left: 1em;
-      padding-bottom: .75em;
-      padding-top: .25em;
-    }
+dd {
+  color: #778899;
+  margin-left: 1em;
+  padding-bottom: .75em;
+  padding-top: .25em;
+}
     
-    h1 {
-    color: #778899;
-    font-family: "Roboto", sans-serif;
-    font-size: 250%;
-    text-align: center;
-    }   
+h1 {
+  color: #778899;
+  font-size: 2.25em;
+  text-align: center;
+}   
 
-    html {
-      font-size: 18px;
-    }
-    
-    p {
-      font-family: "Roboto", sans-serif;
-    }
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
 
-    rt {
-      font-family: "Roboto", sans-serif;
-      font-size: 45%;
-    }
+kanji {
+  color: #778899; 
+  font-family: "Mincho";
+} 
 
-    ruby { 
-      ruby-overhang: whitespace;
-      ruby-position: center;
-    }
+rt {
+  font-family: "Roboto", sans-serif;
+  font-size: 45%;
+}
 
-    .button {
-      border: none;
-      border-radius: 50%;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      margin-left: .25em;
-      margin-right: .25em;
-      padding: 4px 13px 4px 13px;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-    }
+ruby { 
+  ruby-overhang: whitespace;
+  ruby-position: center;
+}
 
-    .button:hover {
-      border-radius: 50%;
-      padding-left: 13px; 
-      padding-right: 13px;
-      padding-top: 14px;
-    }
+.button {
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: .25em;
+  margin-right: .25em;
+  padding: 4px 13px 4px 13px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
 
-    .kanji {
-      color: #778899; 
-      font-family: "Mincho";
-    } 
+.button:hover {
+  border-radius: 50%;
+  padding-left: 13px; 
+  padding-right: 13px;
+  padding-top: 14px;
+}
 
-    .logo {
-      color: #778899;
-      font-family: "Mincho";
-      font-size: 400%; 
-      margin: auto; 
-      padding-bottom: 1em;
-      padding-top: .25em;
-      writing-mode: vertical-rl;
-      -webkit-writing-mode: vertical-rl
-    }  
+#copyright {
+  margin: auto; 
+  padding-top: 1em; 
+  text-align: center;
+  width: 36%
+}
 
-    .menu {
-    margin: auto;
-    width: 30%;
-    padding: 10px;
-    }
+#logo {
+  color: #778899;
+  font-family: "Mincho";
+  font-size: 4em; 
+  margin: .5em auto .5em auto; 
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl
+}  
 
-    .themepicker {
-    padding-bottom: 1em;
-    }
+#menu {
+  margin: auto;
+  width: 30%;
+}
+
+#themepicker {
+  margin: auto;
+  padding-bottom: 1em;
+  text-align: center;
+  width: 30%;
+}
 
 /* iPhone 6 portrait */
-    @media only screen 
-    and (min-device-width: 375px) 
-    and (max-device-width: 667px) 
-    and (orientation: portrait) { 
-      h1 {margin-bottom: -.1em; padding-bottom: 0;}
-      html {font-size: 55px}
-      body {height: 70%}
-      .button { 
-         border: none;
-         border-radius: 50%;
-         display: inline-block;
-         text-align: center;
-         text-decoration: none;
-         height: 70px;
-         width: 60px;
-         margin-left: .25em;
-         margin-right: .25em;
-      }   
-      .logo {padding-bottom: .5em;}
-      .menu {width: 70%;}
-      .themepicker {padding-bottom: 0;}
+@media only screen 
+ and (min-device-width: 375px) 
+ and (max-device-width: 667px) 
+ and (orientation: portrait) { 
+   #themepicker {
+    margin: auto;
+    padding-bottom: 1em;
+    text-align: center;
+    width: 30%;
+}
     }
 
 /* iPhone 6 landscape */
-    @media only screen 
-    and (min-device-width: 375px)
-    and (max-device-width: 667px) 
-    and (orientation: landscape) { 
-      h1 {margin-bottom: -.1em; padding-bottom: 0;}
-      html {font-size: 35px; -webkit-text-size-adjust: none}
-      body {height: 70%;}
-      .button { 
-         border: none;
-         border-radius: 50%;
-         display: inline-block;
-         text-align: center;
-         text-decoration: none;
-         height: 45px;
-         width: 30px;
-         margin-left: .5em;
-         margin-right: .5em;
-      }   
-      .logo {font-size: 325%; padding-bottom: .5em;}
-      .menu {width: 70%;}
-      .themepicker {padding-bottom: 0;}
-    }
+@media only screen 
+ and (min-device-width: 375px)
+ and (max-device-width: 667px) 
+ and (orientation: landscape) { 
+}
  
 /*iPad Pro 9.7" portrait */
-
-    @media only screen
-    and (min-device-width: 768px)
-    and (max-device-width: 1024px)
-    and (orientation: portrait)
-    and (-webkit-min-device-pixel-ratio: 2) {
-      html {font-size: 24px; -webkit-text-size-adjust: none}
-      body {height: 70%;}  
-      h1 {font-size: 50px}
-    }
+@media only screen
+ and (min-device-width: 768px)
+ and (max-device-width: 1024px)
+ and (orientation: portrait)
+ and (-webkit-min-device-pixel-ratio: 2) {
+}
