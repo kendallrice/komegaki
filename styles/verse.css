@@ -125,27 +125,35 @@ sc {
  and (min-device-width: 375px) 
  and (max-device-width: 667px) 
  and (orientation: portrait) { 
-   html {font-size: 42px}
-   body {height: 70%}
- }
+   #copyright { 
+     padding-top: 1em; 
+     text-align: center;
+     width: 80%
+   }
+   #text {
+     width: 95%;
+   }
+   #themepicker {
+    padding-bottom: 1em;
+    text-align: center;
+    width: 100%;
+   }
+}
 
 /* iPhone 6 landscape */
 @media only screen 
  and (min-device-width: 375px)
  and (max-device-width: 667px) 
- and (orientation: landscape) { 
-   html {font-size: 24px; -webkit-text-size-adjust: none}
-   body {height: 70%;}  
-   h1 {font-size: 50px}
- }
+ and (orientation: landscape) {
+   #text {
+     width: 85%;
+   }
+}
  
 /*iPad Pro 9.7" portrait */
 @media only screen
- and (min-device-width: 768px)
- and (max-device-width: 1024px)
- and (orientation: portrait)
- and (-webkit-min-device-pixel-ratio: 2) {
-   html {font-size: 24px; -webkit-text-size-adjust: none}
-   body {height: 70%;}  
-   h1 {font-size: 50px}
- }
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    }
