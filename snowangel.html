@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Snow Angel</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snow Angel</title>
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="styles/prose.css" rel="stylesheet" type="text/css">
     <link href="styles/white.css" rel="stylesheet" type="text/css" id="stylesheet">
     <script src="scripts/theme.js"></script>
-</head>
-<body>
-  <div class="logo">
-    <a href="index.html"><ruby><rb>米書</rb><rt>rice writes</rt></ruby></a>
-  </div>
-    
-  <div class="menu" style="text-align: center">
-    <div class="themepicker">
-      <a href="#" class="button" style="background-color: white" onclick="changeTheme('styles/white.css');return false;"></a>
-      <a href="#" class="button" style="background-color: navajowhite" onclick="changeTheme('styles/lightbrown.css');return false;"></a>
-      <a href="#" class="button" style="background-color: dimgray" onclick="changeTheme('styles/gray.css');return false;"></a>
-      <a href="#" class="button" style="background-color: black" onclick="changeTheme('styles/black.css');return false;"></a>
-    </div>         
-  </div>
-    
-  <div class="prosetext">
+  </head>
 
+  <body>
+    <div id="logo">
+      <a href="index.html"><ruby><rb>米書</rb><rt>rice writes</rt></ruby></a>
+    </div>
+    
+    <div id="themepicker">
+        <a href="#" class="button" style="background-color: white" onclick="changeTheme('styles/white.css');return false;"></a>
+        
+        <a href="#" class="button" style="background-color: navajowhite" onclick="changeTheme('styles/lightbrown.css');return false;"></a>
+        
+        <a href="#" class="button" style="background-color: dimgray" onclick="changeTheme('styles/gray.css');return false;"></a>
+        
+        <a href="#" class="button" style="background-color: black" onclick="changeTheme('styles/black.css');return false;"></a>
+    </div>         
+    
     <h1>Snow Angel</h1>
     <h2>Kendall Rice</h2>
       
-    <p class="epi"> “[Happiness] can no more exist in a heart, that is continually alive to minute circumstances, than in one that is dead to feeling.”—Ann Radcliffe, <em>Mysteries of Udolpho</em></p>
-
-    <p class="first"><span class="dropcap" style="margin-bottom: 0">J</span><caps>une 18 </caps>was a dark day for eighth-graders in Durmont. Not just because they hadn’t seen the sun in three months; in the Dukedom of Antarctica, you learned to accept that. Standardized tests were a different story. The duke had set one just four days before the winter solstice, so instead of ice skating, the eighth grade was packed into desks like ice cubes in a tray, flurrying their no. 2 pencils at the first prompt: “Describe the system of habitation employed by the cities of the Polar Plateau and the scientific processes that facilitate it.”</p>
-    
-    <p>In other words, reasoned a boy called Linus in the third row from the back, what had changed Antarctica from the desolate, freezing wasteland in his history book to the desolate, freezing wasteland he awoke to every morning? That was easy enough; a better question would be whose great idea it had been to bother with this godforsaken continent in the first place. Since the duke cared about details, however, Linus decided to oblige.</p>
+    <div id="text">
       
-    <p>System of habitation: Basically, all hung on the Vents, a handful of miraculous gates through which the earth had been squandering its geothermal surplus since the beginning of time. Before their discovery, the Vents gave Antarctica nothing beyond the odd angry cyclone. That changed with the Hotbots—floating fans that circled the Vents, sucking in heat and coughing it back, until the air above the Polar Plateau was slightly warmer than a meat locker. This was enough to get Antarctica declared habitable at last, and cities like Durmont flew up like masochistic moths around the Vents.</p>
+      <p class="epi"> “[Happiness] can no more exist in a heart, that is continually alive to minute circumstances, than in one that is dead to feeling.”—Ann Radcliffe, <em>Mysteries of Udolpho</em></p>
+
+      <p class="first"><span class="dropcap" style="margin-bottom: 0">J</span><caps>une 18 </caps>was a dark day for eighth-graders in Durmont. Not just because they hadn’t seen the sun in three months; in the Dukedom of Antarctica, you learned to accept that. Standardized tests were a different story. The duke had set one just four days before the winter solstice, so instead of ice skating, the eighth grade was packed into desks like ice cubes in a tray, flurrying their no. 2 pencils at the first prompt: “Describe the system of habitation employed by the cities of the Polar Plateau and the scientific processes that facilitate it.”</p>
+    
+      <p>In other words, reasoned a boy called Linus in the third row from the back, what had changed Antarctica from the desolate, freezing wasteland in his history book to the desolate, freezing wasteland he awoke to every morning? That was easy enough; a better question would be whose great idea it had been to bother with this godforsaken continent in the first place. Since the duke cared about details, however, Linus decided to oblige.</p>
+      
+      <p>System of habitation: Basically, all hung on the Vents, a handful of miraculous gates through which the earth had been squandering its geothermal surplus since the beginning of time. Before their discovery, the Vents gave Antarctica nothing beyond the odd angry cyclone. That changed with the Hotbots—floating fans that circled the Vents, sucking in heat and coughing it back, until the air above the Polar Plateau was slightly warmer than a meat locker. This was enough to get Antarctica declared habitable at last, and cities like Durmont flew up like masochistic moths around the Vents.</p>
       
       <p>As for the scientific processes that facilitated it, a few mentions of “radiation” and “convection” would be enough to satisfy the duke.</p>
       
@@ -290,10 +293,11 @@
       
 	 <p>A second later, he felt himself compressed by something plush. A tickle on his chin advised him to open his eyes. A penguin smiled at him between two winter-coated arms, assuring Linus he was safe: from the air’s cold bite, from the raging heat beneath, from a thousand discouragements and insecurities.</p>
         
-     <p>At least until the moon’s next rise.</p>  
+     <p>At least until the moon’s next rise.</p> 
+
+    </div>
   
-     <p class="top"><a href="#top">top</a></p>
-	  
-  </div>
-</body>
+    <div id="totop"><a href="#top">top</a></div>
+
+  </body>
 </html>
