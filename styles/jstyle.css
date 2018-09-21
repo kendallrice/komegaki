@@ -122,15 +122,13 @@ rt {
 and (min-device-width: 375px) 
 and (max-device-width: 667px) 
 and (orientation: portrait) { 
-  body {height: 70%}
 }
 
 /* iPhone 6 landscape */
 @media only screen 
 and (min-device-width: 375px)
 and (max-device-width: 667px) 
-and (orientation: landscape) { 
-  body {height: 70%;}  
+and (orientation: landscape) {  
 }
  
 /*iPad Pro 9.7"*/
@@ -139,6 +137,5 @@ and (orientation: landscape) {
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
-  body {height: 70%;}  
+and (-webkit-min-device-pixel-ratio: 2) { 
 }
