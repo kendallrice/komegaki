@@ -112,8 +112,7 @@ sc {
 }
 
 #totop {
-  margin-bottom: 1em;
-  margin-top: 2em;
+  margin: 2em 0 2em 0;
   text-align: center;
 }
 
