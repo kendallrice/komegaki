@@ -1,4 +1,4 @@
-p, a:link, a:visited, h2, #menu {
+p, a:link, a:visited, h2 {
   color: azure;
 }
 
@@ -43,5 +43,3 @@ img {
 #copyright {
   color: lightsteelblue;
 }
-
-    
