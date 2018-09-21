@@ -88,7 +88,8 @@ ruby {
     margin: auto;
     padding-bottom: 1em;
     text-align: center;
-}
+    width: 100%;
+　　}
     }
 
 /* iPhone 6 landscape */
