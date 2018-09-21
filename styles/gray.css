@@ -1,47 +1,27 @@
 p, a:link, a:visited, h2, #menu {
-  color: azure;
+  color: #654321;
 }
-
+   
 a:hover {
-  color: #fff99c;
+  color: darkorange;
 }
 
 body {
-  background-color: dimgray;
-}
-
-dd {
-  color: #deeff5;
-}
-
-dt {
-  color: #deeff5;
-}
-
-h1 {
-  color: #deeff5;
-}
-
-img {
-  opacity: .8;
-}
-
-.dropcap {
-  color: #fff99c;
+  background-color: navajowhite;
 }
 
 .epi {
-  color: black;
+  color: dimgray;
   padding-bottom: 1em;
   text-indent: 0;
 }
 
+
 .logo {
-  color: white;
-}
+  color: #778899;
+ }
 
 #copyright {
-  color: lightsteelblue;
+  color: dimgrey;
 }
 
-    
