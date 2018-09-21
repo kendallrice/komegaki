@@ -1,37 +1,38 @@
-    p, a:link, a:visited, h2 {
-      color: aliceblue;
-    }
-    a:hover {
-      color: darkolivegreen;
-    }
+p, a:link, a:visited, h2, #menu {
+  color: aliceblue;
+}
+    
+a:hover {
+  color: darkolivegreen;
+}
 
-    body {
-      background-color: black;
-    }
+body {
+  background-color: black;
+}
 
-    dt {
-      color: aliceblue;
-    }
+dt {
+  color: aliceblue;
+}
 
-    img {
-      opacity: .7;
-    }
+img {
+  opacity: .7;
+}
 
-    .dropcap {
-      color: #fff99c;
-    }
+.dropcap {
+  color: #fff99c;
+}
 
-    .epi {
-      color: dimgray;
-      padding-bottom: 1em;
-      text-indent: 0;
-    }
+.epi {
+  color: dimgray;
+  padding-bottom: 1em;
+  text-indent: 0;
+}
 
 
-    .logo {
-      color: white;
-    }
+.logo {
+  color: white;
+}
 
-    #copyright {
-      color: dimgray;
-    }
+#copyright {
+  color: dimgray;
+}
