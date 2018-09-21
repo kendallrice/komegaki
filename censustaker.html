@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>The Census-Taker</title>
-  <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">  
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Census-Taker</title>
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="styles/verse.css" rel="stylesheet" type="text/css">
     <link href="styles/white.css" rel="stylesheet" type="text/css" id="stylesheet">
     <script src="scripts/theme.js"></script>
-</head>
-<body>
- <div class="logo">
-    <a href="index.html"><ruby><rb>米書</rb><rt>rice writes</rt></ruby></a>
- </div>
-    
-    <div style="margin: auto; width: 30%; padding: 10px; text-align: center">
-      <div class="themepicker">
-        <a href="#" class="button" style="background-color: white" onclick="changeTheme('styles/white.css');return false;"></a>
-        
-        <a href="#" class="button" style="background-color: navajowhite" onclick="changeTheme('styles/lightbrown.css');return false;"></a>
-        
-        <a href="#" class="button" style="background-color: dimgray" onclick="changeTheme('styles/gray.css');return false;"></a>
-        
-        <a href="#" class="button" style="background-color: black" onclick="changeTheme('styles/black.css');return false;"></a>
-      </div>         
+  </head>
+
+  <body>
+      
+    <div id="logo">
+      <a href="index.html"><ruby><rb>米書</rb><rt>rice writes</rt></ruby></a>
     </div>
     
-  <div style="margin: auto; max-width: 40em; width: 65%">
+    <div id="themepicker">
+      <a href="#" class="button" style="background-color: white" onclick="changeTheme('styles/white.css')"></a>
+        
+      <a href="#" class="button" style="background-color: navajowhite" onclick="changeTheme('styles/lightbrown.css')"></a>
+        
+      <a href="#" class="button" style="background-color: dimgray" onclick="changeTheme('styles/gray.css')"></a>
+        
+      <a href="#" class="button" style="background-color: black" onclick="changeTheme('styles/black.css')"></a>
+    </div>         
     
-  <h1>The Census-Taker</h1>
-  <h2>Kendall Rice</h2>
+    <h1>The Census-Taker</h1>
+    <h2>Kendall Rice</h2>
+    
+  <div id="text">
 
       <p>A man with a clipboard appeared at our door</p>
       <p>To request that we let him inside:</p>
@@ -76,10 +77,9 @@
       <p>Legislators you choose; if they don’t share your views,</p>
       <p>They’ll at least reflect those of your furniture.”</p>
   
-  <p style="font-family: Roboto; padding-top: 1em; padding-bottom: .5em; text-align: center"><a href="#top">top</a></p>
-        
     </div>
-    
-<script src="scripts/main.js"></script>
-</body>
+      
+    <div id="totop"><a href="#top">top</a></div>
+
+  </body>
 </html>
