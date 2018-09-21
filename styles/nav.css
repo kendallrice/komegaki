@@ -1,57 +1,35 @@
-caps {
-  text-transform: uppercase;
-  letter-spacing: 2px;
+dd {
+  color: #778899;
+  margin-left: 1em;
+  padding-bottom: .75em;
+  padding-top: .25em;
 }
-
-html {
-  font-family: "Roboto", sans-serif;
-  font-size: 22px;
-}
-
+    
 h1 {
   color: #778899;
   font-size: 2.25em;
   text-align: center;
 }   
 
-h2 {
-  font-size: 1.2em;
-  font-weight: normal;
-  margin-top: -1em;
-  margin-bottom: 2em;
-  text-align: center;
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
 }
 
-p {
-  font-family: "EB Garamond", serif;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  text-indent: 1.5em;
-  margin-bottom: -1em;
-}
-
-ruby { 
-  ruby-overhang: whitespace;
-  ruby-position: center;
-}
+kanji {
+  color: #778899; 
+  font-family: "Mincho";
+} 
 
 rt {
   font-family: "Roboto", sans-serif;
   font-size: 45%;
 }
 
-sc {
-  font-variant: small-caps;
-  letter-spacing: 2px;
- }
-
-.break {
-  padding-bottom: 2em;
-  text-align: center;
-  text-indent: 0em;    
- }
+ruby { 
+  ruby-overhang: whitespace;
+  ruby-position: center;
+}
 
 .button {
   border: none;
@@ -73,18 +51,11 @@ sc {
   padding-top: 14px;
 }
 
-.dropcap {
-  color: #F60;
-  font-size: 500%;
-  float: left;
-  line-height: 1.3em;
-  margin-top: -0.28em;
-  margin-bottom: -0.3245em; 
-  padding-right: .05em;
-}
-
-.first {
-  text-indent: 0;
+#copyright {
+  margin: auto; 
+  padding-top: 1em; 
+  text-align: center;
+  width: 36%
 }
 
 #logo {
@@ -96,11 +67,9 @@ sc {
   -webkit-writing-mode: vertical-rl
 }  
 
-#text {
-  line-height: 1.3; 
-  margin: auto; 
-  max-width: 40em; 
-  width: 65%
+#menu {
+  margin: auto;
+  width: 30%;
 }
 
 #themepicker {
@@ -108,11 +77,6 @@ sc {
   padding-bottom: 1em;
   text-align: center;
   width: 30%;
-}
-
-#totop {
-  margin: 2em 0 2em 0;
-  text-align: center;
 }
 
 /* iPhone 6 portrait */
@@ -125,8 +89,8 @@ sc {
      text-align: center;
      width: 80%
    }
-   #text {
-     width: 90%;
+   #menu {
+     width: 70%;
    }
    #themepicker {
     padding-bottom: 1em;
@@ -140,15 +104,15 @@ sc {
  and (min-device-width: 375px)
  and (max-device-width: 667px) 
  and (orientation: landscape) {
-   #text {
-     width: 85%;
+   #menu {
+     width: 60%;
    }
 }
  
 /*iPad Pro 9.7" portrait */
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    }
+ and (min-device-width: 768px)
+ and (max-device-width: 1024px)
+ and (orientation: portrait)
+ and (-webkit-min-device-pixel-ratio: 2) {
+}
