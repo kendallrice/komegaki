@@ -122,8 +122,6 @@ sc {
  and (min-device-width: 375px) 
  and (max-device-width: 667px) 
  and (orientation: portrait) { 
-   html {font-size: 42px}
-   body {height: 70%}
 }
 
 /* iPhone 6 landscape */
@@ -131,9 +129,6 @@ sc {
  and (min-device-width: 375px)
  and (max-device-width: 667px) 
  and (orientation: landscape) { 
-   html {font-size: 24px; -webkit-text-size-adjust: none}
-   body {height: 70%;}  
-   h1 {font-size: 50px}
     }
  
 /*iPad Pro 9.7" portrait */
@@ -142,7 +137,4 @@ sc {
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 2) {
-    html {font-size: 24px; -webkit-text-size-adjust: none}
-    body {height: 70%;}  
-    h1 {font-size: 50px}
     }
