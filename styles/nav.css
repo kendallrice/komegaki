@@ -84,12 +84,16 @@ ruby {
  and (min-device-width: 375px) 
  and (max-device-width: 667px) 
  and (orientation: portrait) { 
+   #copyright { 
+    padding-top: 1em; 
+    text-align: center;
+    width: 100%
+    }
    #themepicker {
-    margin: auto;
     padding-bottom: 1em;
     text-align: center;
     width: 100%;
-　　}
+　　 }
     }
 
 /* iPhone 6 landscape */
