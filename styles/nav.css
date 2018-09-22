@@ -117,6 +117,7 @@ ruby {
  and (-webkit-min-device-pixel-ratio: 2) {
    menu {
      width: 60%;
+   }
 }
    
 /*iPad Pro 9.7" landscape */
@@ -127,4 +128,5 @@ ruby {
  and (-webkit-min-device-pixel-ratio: 2) {
    menu {
      width: 60%;
+   }
 }
