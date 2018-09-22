@@ -80,7 +80,7 @@ rt {
 }
 
 .dash {
-  vertical-align: sub;
+  vertical-align: 0%;
 }
 
 .leader
