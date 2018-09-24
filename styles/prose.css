@@ -171,7 +171,7 @@ sc {
 @media only screen 
   and (min-device-width: 360px) 
   and (max-device-width: 640px) 
-  and (orientation: portrait)
+  and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 3) {
    #text {
      width: 85%;
