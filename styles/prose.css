@@ -120,11 +120,6 @@ sc {
  and (min-device-width: 375px) 
  and (max-device-width: 667px) 
  and (orientation: portrait) { 
-   #copyright { 
-     padding-top: 1em; 
-     text-align: center;
-     width: 80%
-   }
    #text {
      width: 90%;
    }
@@ -155,3 +150,30 @@ sc {
       width: 80%;
     }
 }
+
+/* Samsung s6 portrait */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 3) {
+   #text {
+     width: 90%;
+   }
+   #themepicker {
+    padding-bottom: 1em;
+    text-align: center;
+    width: 100%;
+   }
+}  
+
+/* Samsung s6 landscape */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 3) {
+   #text {
+     width: 85%;
+   }
+}  
